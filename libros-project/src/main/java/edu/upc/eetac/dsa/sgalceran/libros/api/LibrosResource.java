@@ -129,7 +129,7 @@ public class LibrosResource {
 			@QueryParam("length") int length,
 			@QueryParam("before") long before, @QueryParam("after") long after) {
 		LibrosCollection coleccionlibros = new LibrosCollection();
-		coleccionlibros.setAutor(nombreautor);
+		//coleccionlibros.setLibro(nombreautor);
 
 		Connection conn = null;
 		try {
@@ -209,7 +209,7 @@ public class LibrosResource {
 			@QueryParam("length") int length,
 			@QueryParam("before") long before, @QueryParam("after") long after) {
 		LibrosCollection coleccionlibros = new LibrosCollection();
-		coleccionlibros.setLibro(titulo);
+		//coleccionlibros.setLibro(titulo);
 
 		Connection conn = null;
 		try {
